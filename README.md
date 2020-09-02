@@ -1,18 +1,18 @@
 # blue-city-dev-test
 
-[requirements](https://www.dropbox.com/s/15v9gtpnu9sgu1u/Task.docx?dl=0).
+##[requirements](https://www.dropbox.com/s/15v9gtpnu9sgu1u/Task.docx?dl=0).
 
 ## section 1
 
-![menu](spierre95/blue-city-tech-dev-test/edit/master/screenshots/menu_section.png?raw=true)
+![menu](./../screenshots/menu_section.png?raw=true)
 
 ## section 2
 
-![analytics](spierre95/blue-city-tech-dev-test/edit/master/screenshots/analytics_section.png?raw=true)
+![analytics](./../screenshots/analytics_section.png?raw=true)
 
 ## section 3
 
-![cpu_memory](spierre95/blue-city-tech-dev-test/edit/master/screenshots/memory_section.png?raw=true)
+![cpu_memory](./../screenshots/memory_section.png?raw=true)
 
 
 ## Summary 

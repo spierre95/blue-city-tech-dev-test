@@ -1,28 +1,42 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <TheSideBar />
+    <div class="row">
+      <div class="col-12">
+        <div class="container">
+          <router-view></router-view>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import TheSideBar from "./components/TheSideBar";
 export default {
-  name: 'App',
+  name: "app",
   components: {
-    HelloWorld
-  }
-}
+    TheSideBar,
+  },
+};
 </script>
 
-<style>
+<style lang="scss">
+//override bootstrap
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  
+  // causing wierd glitch when opening side bar
+  .row {
+    margin: 0;
+  }
+  .container {
+    max-width: 850px;
+  }
+}
+
+.header-title {
+  margin: 30px;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: green;
 }
 </style>
